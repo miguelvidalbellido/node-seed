@@ -1,4 +1,4 @@
-### Versión 0.1 - Readme
+### Versión 1.0.0 - Readme
 
 # NODE SEED
 
