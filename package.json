@@ -1,0 +1,8 @@
+{
+  "name": "node-seed",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/miguelvidalbellido/node-seed.git",
+  "author": "Miguel Vidal Bellido <mbellido13@gmail.com>",
+  "license": "MIT"
+}
