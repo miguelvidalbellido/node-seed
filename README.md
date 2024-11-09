@@ -1,4 +1,4 @@
-### Versión 1.0.3 - Readme
+### Versión 1.0.4 - Readme
 
 # NODE SEED
 
@@ -58,3 +58,9 @@ A continuación, se nos presentará una serie de preguntas para configurar ESLin
 - **Soporte para TypeScript**: Especificar si el proyecto es de TypeScript y si se deben aplicar reglas específicas para este lenguaje.
 - **Gestor de paquetes**: Elegir entre diferentes gestores de paquetes, como npm o yarn.
 - **Tipo de proyecto**: Definir el tipo de proyecto (por ejemplo, aplicación web, Node, etc.) para aplicar las reglas más adecuadas.
+
+## Dotenv
+
+Se han integrado las variables de entorno utilizando la dependencia dotenv y un archivo .env. 
+
+Para su implementación, hemos configurado la importación de la dependencia en el archivo principal de la aplicación y, a continuación, hemos inicializado el cargador de variables con dotenv.config(), lo que permite acceder a las variables definidas en el archivo .env a través de process.env en cualquier parte del proyecto.
