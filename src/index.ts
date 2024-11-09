@@ -4,7 +4,7 @@ dotenv.config()
 
 const test = 1123
 
-const prueba = (a: number) => {
+export const prueba = (a: number): number => {
   console.log(process.env.PRUEBA)
   return a
 } 

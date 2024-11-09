@@ -1,4 +1,4 @@
-### Versión 1.0.4 - Readme
+### Versión 1.0.5 - Readme
 
 # NODE SEED
 
@@ -64,3 +64,17 @@ A continuación, se nos presentará una serie de preguntas para configurar ESLin
 Se han integrado las variables de entorno utilizando la dependencia dotenv y un archivo .env. 
 
 Para su implementación, hemos configurado la importación de la dependencia en el archivo principal de la aplicación y, a continuación, hemos inicializado el cargador de variables con dotenv.config(), lo que permite acceder a las variables definidas en el archivo .env a través de process.env en cualquier parte del proyecto.
+
+## Jest
+
+Este proyecto utiliza **Jest**, una biblioteca de JavaScript diseñada para realizar pruebas unitarias e integrales de nuestro código, ayudándonos a identificar y prevenir posibles errores.
+
+## Instalación
+
+Para instalar Jest como dependencia de desarrollo, ejecuta el siguiente comando:
+
+```bash
+  yarn add jest --dev
+```
+
+La estructura de los tests está diseñada para facilitar la navegación y el mantenimiento del proyecto. Todos los tests se ubican en la carpeta __test__, la cual replica la misma estructura de la carpeta src/. De esta manera, mantenemos un orden lógico y consistente, permitiendo localizar rápidamente los archivos de prueba correspondientes a cada módulo o componente.
