@@ -4,5 +4,4 @@ const prueba = (a: number) => {
   return a
 } 
 
-
-console.log(prueba(test));
+prueba(test)
