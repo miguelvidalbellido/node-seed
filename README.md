@@ -69,7 +69,7 @@ Para su implementación, hemos configurado la importación de la dependencia en 
 
 Este proyecto utiliza **Jest**, una biblioteca de JavaScript diseñada para realizar pruebas unitarias e integrales de nuestro código, ayudándonos a identificar y prevenir posibles errores.
 
-## Instalación
+### Instalación
 
 Para instalar Jest como dependencia de desarrollo, ejecuta el siguiente comando:
 
