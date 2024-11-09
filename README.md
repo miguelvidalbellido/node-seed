@@ -1,4 +1,4 @@
-### Versión 1.0.1 - Readme
+### Versión 1.0.2 - Readme
 
 # NODE SEED
 
@@ -42,3 +42,19 @@ A continuación, añadimos los scripts de desarrollo y compilación (dev y build
     "build": "tsc"
   }
 ```
+
+### ESLint
+
+Se ha integrado ESLint en el proyecto con el objetivo de establecer una estructura simétrica en el código, garantizar el correcto uso de TypeScript y asegurar un código limpio y bien mantenido. Para ello, ejecutamos el siguiente comando:
+
+
+```bash
+  yarn create @eslint/config
+```
+
+A continuación, se nos presentará una serie de preguntas para configurar ESLint de manera adecuada, incluyendo opciones como:
+
+- **Sintaxis o corrección de errores**: Definir si queremos que ESLint solo verifique la sintaxis del código o también corrija automáticamente los errores encontrados.
+- **Soporte para TypeScript**: Especificar si el proyecto es de TypeScript y si se deben aplicar reglas específicas para este lenguaje.
+- **Gestor de paquetes**: Elegir entre diferentes gestores de paquetes, como npm o yarn.
+- **Tipo de proyecto**: Definir el tipo de proyecto (por ejemplo, aplicación web, Node, etc.) para aplicar las reglas más adecuadas.

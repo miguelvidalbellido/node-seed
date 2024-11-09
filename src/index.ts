@@ -1,2 +1,8 @@
-const test: string = 'test typescript';
-console.log(test);
+const test = 1123
+
+const prueba = (a: number) => {
+  return a
+} 
+
+
+console.log(prueba(test));
